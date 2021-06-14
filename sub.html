@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>forD</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+      
+    <style>
+      * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+      }
+
+      body{
+            margin: 0;
+            min-width: 992px;
+            font-family: 'Nanum Gothic', sans-serif;
+            color: #1f1e1e;   
+      }
+
+      body a{
+        text-decoration: none;
+        color: #1f1e1e;
+      }
+      
+      .all{
+        width: 1266px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .navbar{
+        height: 100px;
+      }
+
+      .navbar #logo{  
+        font-family: 'Courier Prime', monospace;
+        font-size: 36px;
+        font-weight: bold;  
+        line-height: 100px;
+        vertical-align: middle; 
+      }
+
+      .navbar #logo h1{
+          display: inline-block; 
+      }
+
+      .navbar #menu{
+        font-size: 18px;
+        line-height: 100px; 
+        float: right;
+      }
+
+      .navbar #menu li{
+        float: left;
+        list-style-type: none;
+        margin-left: 30px;
+      }
+
+      .navbar #menu li a:hover{
+        color: #0057ff;
+        font-weight: bold;
+      }
+
+      .site-main{
+        text-align: center;
+        line-height: 297.2px;
+        font-size: 54px;
+        font-weight: bold;
+        height: 297.2px;
+      }
+
+      /* 여기서부터는 사이트 리스트 */
+
+      .tag{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .tag a{
+        font-size: 16px;
+        padding: 10px 15px;
+        margin: 10px 5px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 3px 3px 5px 1px #adadad;
+      }
+
+      .tag a:hover{
+        background-color: #0057ff;
+        color: #ffffff;
+      }
+
+      .tag #tag-present{
+        background-color: #0057ff;
+        color: #ffffff;
+      }
+
+      .contents{
+        margin-top: 20px;
+        width: 1295.2px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+     
+      .contents .site {
+        margin-left: 14.6px;
+        margin-right: 14.6px;
+      }
+
+      .site-list-name{
+        font-size: 24px;
+        font-weight: bold;
+        padding: 80px 0 14px 0;
+        margin-bottom: 10px;
+      }
+
+      .contents .site{
+        display: block; 
+        margin-bottom: 50px; 
+        text-decoration: none;
+        text-align: left;
+        float: left;
+        width: 294.6px;
+        height: 280px;
+      }
+
+      .contents .site:hover{
+        color: #0057ff;
+      }
+
+      .contents .site-name{
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold ;
+        padding-left: 10px;
+      }
+
+      .contents .site-name:hover{
+        color: #0057ff;
+      }
+
+      .contents .site-info{
+        margin-top: 10px;
+        font-size: 16px;
+        color: #636363;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+      }
+
+      .clearfix{
+        clear: both;
+      }
+
+    
+    </style>
+  </head>
+
+  <body>
+    <div class="all">
+    <div class="navbar">
+      <a href="index.html" id="logo">
+        <h1>forD</h1>
+      </a>
+      <ul id="menu">
+        <li><a href="#">제품</a></li>
+        <li><a href="#">UI</a></li>
+        <li><a href="#">모션그래픽</a></li>
+        <li><a href="#">모든 태그</a></li>
+      </ul>
+    </div>
+
+
+
+    
+    <div class="site-main">UI</div>
+    <div class="site-list-name">참고 자료 사이트</div>
+    <div class="tag">
+        <a href="#">#포트폴리오</a>
+        <a href="#">#UI</a>
+        <a href="#" id="tag-present">#웹디자인</a>
+        <a href="#">#컬러</a>
+        <a href="#">#PPT</a>
+    </div>
+
+  </div>
+    <div class="contents">
+       
+        <a href="https://www.behance.net/" target="_blank" class="site">
+        <div class="site-img"><img src="img/awwwards.png" width=294.61px></div>
+        <div class="site-name">Awwwards</div>
+        <div class="site-info">전문적인 웹 디자인 및 개발 경쟁 사이트</div>
+        </a>
+
+        <a href="https://dribbble.com/" target="_blank" class="site">
+        <div class="site-img"> <img src="img/gdweb.png" width=294.61px></div>
+        <div class="site-name">GD Web</div>
+        <div class="site-info">국내 우수 웹디자인 선정 및 시상작들을 모아놓은 사이트</div>
+        </a>
+
+        <a href="https://notefolio.net/" target="_blank" class="site">
+        <div class="site-img"> <img src="img/dbcut.png" width=294.61px></div>
+        <div class="site-name">DB Cut</div>
+        <div class="site-info">웹디자인 평가 및 우수 웹사이트를 모아놓은 사이트</div>
+        </a>
+
+        <a href="https://notefolio.net/" target="_blank" class="site">
+        <div class="site-img"> <img src="img/siteinpire.png" width=294.61px></div>
+        <div class="site-name">Site Inspire</div>
+        <div class="site-info">외국 사이트들을 주제별, 타입별, 스타일별로 둘러볼 수 있는 사이트</div>
+        </a>
+
+    <div class="clearfix"></div>  
+    </div>
+    <div class="all">
+    <div class="site-list-name">활용 가능 소스 제공 사이트</div>
+    <div class="tag">
+        <a href="#" id="tag-present">#이미지</a>
+        <a href="#">#아이콘</a>
+        <a href="#">#폰트</a>
+        <a href="#">#컬러</a>
+    </div>
+    </div>
+
+  </div>
+    <div class="contents">
+       
+    <a href="https://cofolios.com/" target="_blank" class="site">
+              <div class="site-img"><img src="img/unsplash.png" width=294.61px></div>
+              <div class="site-name">Unsplash</div>
+              <div class="site-info">고화질 사진 무료 다운로드 사이트</div>
+              </a>
+     
+           
+    <div class="clearfix"></div>  
+    </div>
+ 
+ 
+    
+    <div class="footer">
+      
+    </div>
+  
+  </body>
+</html>
